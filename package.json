@@ -1,0 +1,15 @@
+{
+  "name": "version-2.0",
+  "version": "1.0.0",
+  "description": "Anna Faixova - personal webpage",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass -w ./style.scss dist/css/ --recursive"
+  },
+  "author": "Anna Faixova",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
